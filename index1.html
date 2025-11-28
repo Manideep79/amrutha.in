@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMRUTHA Welfare Society - Sustainable Tribal Development</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles for professional NGO aesthetic */
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #333;
+        }
+        .hero-bg {
+            /* Using a relevant placeholder image for natural resource management / agriculture */
+            background-image: linear-gradient(rgba(18, 55, 42, 0.7), rgba(18, 55, 42, 0.8)), url('https://images.unsplash.com/photo-1579248408477-8c3af06e5797?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            min-height: 85vh; /* Responsive height */
+        }
+        .text-amrutha-green {
+            color: #12372A; /* Deep, natural green */
+        }
+        .bg-amrutha-green {
+            background-color: #12372A;
+        }
+        .btn-primary {
+            background-color: #38761D; /* A vibrant, action-oriented green */
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #499e2a;
+            box-shadow: 0 10px 15px -3px rgba(56, 118, 29, 0.5), 0 4px 6px -2px rgba(56, 118, 29, 0.5);
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20">
+                <div class="flex items-center">
+                    <a href="#" class="flex-shrink-0 flex items-center">
+                        <i class="fas fa-leaf text-3xl mr-3 text-amrutha-green"></i>
+                        <span class="font-extrabold text-2xl text-amrutha-green tracking-tight">AMRUTHA</span>
+                        <span class="text-gray-500 text-xl font-light ml-1">Welfare Society</span>
+                    </a>
+                </div>
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex items-center space-x-6">
+                    <a href="#about" class="text-gray-600 hover:text-amrutha-green font-medium transition">About</a>
+                    <a href="#vision" class="text-gray-600 hover:text-amrutha-green font-medium transition">Vision</a>
+                    <a href="#projects" class="text-gray-600 hover:text-amrutha-green font-medium transition">Focus Areas</a>
+                    <a href="#impact" class="text-gray-600 hover:text-amrutha-green font-medium transition">Impact & Goals</a>
+                    <a href="#team" class="text-gray-600 hover:text-amrutha-green font-medium transition">Our Team</a>
+                    <a href="#donate" class="btn-primary text-white px-6 py-2.5 rounded-full font-bold shadow-md transform hover:scale-105">
+                        Support Our Work
+                    </a>
+                </div>
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-gray-600 hover:text-amrutha-green focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#about" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-amrutha-green hover:bg-gray-50">About</a>
+                <a href="#vision" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-amrutha-green hover:bg-gray-50">Vision</a>
+                <a href="#projects" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-amrutha-green hover:bg-gray-50">Focus Areas</a>
+                <a href="#impact" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-amrutha-green hover:bg-gray-50">Impact & Goals</a>
+                <a href="#team" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-amrutha-green hover:bg-gray-50">Our Team</a>
+                <a href="#donate" class="block px-3 py-2 mt-4 text-center rounded-md text-base font-bold btn-primary text-white">Support Our Work</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+<section id="home" class="relative flex items-center justify-center hero-bg text-white pt-20">
+    <div class="relative z-10 text-center px-4 py-32 max-w-5xl mx-auto">
+        <h1 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight text-yellow-50">
+            Building <span class="text-green-400">Tribal Prosperity</span> with Nature at Heart
+        </h1>
+        <p class="text-xl md:text-2xl mb-10 text-gray-200 font-light max-w-3xl mx-auto">
+            Working since 2004 in the Eastern Ghats of Andhra Pradesh to promote sustainable agriculture, natural resource management, and inclusive growth for over 3,750 tribal families.
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+            <a href="#projects" class="btn-primary text-white px-8 py-4 rounded-full font-bold text-lg shadow-xl transform hover:scale-105">
+                Explore Our Sustainable Work
+            </a>
+            <a href="#impact" class="bg-white hover:bg-gray-100 text-amrutha-green px-8 py-4 rounded-full font-bold text-lg shadow-xl transition transform hover:scale-105">
+                See Our 2030 Goals
+            </a>
+        </div>
+    </div>
+</section>
+
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-extrabold text-amrutha-green">About AMRUTHA</h2>
+                <div class="w-20 h-1 bg-amrutha-green mx-auto mt-4 rounded-full"></div>
+            </div>
+            <div class="lg:flex lg:items-start lg:gap-12">
+                <div class="lg:w-1/2 mb-10 lg:mb-0">
+                    <p class="text-gray-600 mb-6 text-lg leading-relaxed border-l-4 border-green-500 pl-4 bg-white p-4 rounded-lg shadow-md">
+                        AMRUTHA Welfare Society is a non-profit, non-governmental, non-political, and non-religious organization established in 2004 by a group of grassroots women development professionals. We drive sustainable and inclusive growth through community-driven participation.
+                    </p>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        We operate across **Paderu, G. Madugula, and Hukumpeta mandals** of Alluri Sitarama Raju District, Andhra Pradesh, reaching **116 villages** and supporting **over 3,750 tribal families**. Our approach emphasizes self-reliance, social awareness, and democratic values among tribal, dalit, and rural communities, with a special focus on women and children.
+                    </p>
+                    <div class="bg-yellow-50 p-6 rounded-xl border border-yellow-200">
+                         <h4 class="text-xl font-bold text-amrutha-green mb-3 flex items-center"><i class="fas fa-users-gear mr-2"></i> Our Core Values</h4>
+                         <ul class="list-disc list-inside text-gray-700 space-y-2 ml-4">
+                             <li>Championing the right to self-organization for tribal communities.</li>
+                             <li>Fostering unity, cohesion, and collective action for self-reliance.</li>
+                             <li>Operating as a non-political, secular, and action-oriented catalyst.</li>
+                         </ul>
+                    </div>
+                </div>
+                <div class="lg:w-1/2">
+                    <h3 id="vision" class="text-2xl font-bold text-amrutha-green mb-4 border-b pb-2">Vision & Mission</h3>
+                    <div class="space-y-6">
+                        <div class="p-6 bg-white rounded-xl shadow-lg card-hover">
+                            <h4 class="font-bold text-xl text-amrutha-green mb-2 flex items-center"><i class="fas fa-eye mr-2 text-green-500"></i> Our Vision</h4>
+                            <p class="text-gray-700">A just, inclusive, and sustainable tribal society in the Eastern Ghats where women, children, and marginalized communities live with dignity, self-reliance, and harmony with nature through the protection of their natural resources and cultural heritage.</p>
+                        </div>
+                        <div class="p-6 bg-white rounded-xl shadow-lg card-hover">
+                            <h4 class="font-bold text-xl text-amrutha-green mb-2 flex items-center"><i class="fas fa-bullseye mr-2 text-green-500"></i> Our Mission</h4>
+                            <p class="text-gray-700">To empower communities to build self-confidence and self-reliance; to support them in protecting, conserving, and regenerating their natural resources; and to foster comprehensive development by strengthening the cultural, socio-economic, and ecological links between people and their environment.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Focus Areas / Projects Section -->
+    <section id="projects" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-extrabold text-amrutha-green">Our Core Focus Areas</h2>
+                <p class="mt-4 text-xl text-gray-600">Integrated strategies for sustainable development and resilience.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Focus Area 1: Livelihood & Agriculture -->
+                <div class="bg-gray-50 rounded-xl shadow-lg p-8 card-hover border-t-4 border-green-600">
+                    <i class="fas fa-seedling text-4xl text-green-600 mb-4"></i>
+                    <h3 class="text-2xl font-bold text-amrutha-green mb-3">Sustainable Livelihoods</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>**Climate-Smart Agriculture:** Promoting ZBNF, SRI, and Millets.</li>
+                        <li>**Land Development:** Reclamation of wastelands through soil/water conservation and contour bunding.</li>
+                        <li>**Nutritional Security:** Vegetable cultivation, Kitchen gardens, and Nutri-gardens.</li>
+                        <li>**Value Addition:** Community-operated processing centers and skill training for market access (Marts).</li>
+                    </ul>
+                </div>
+
+                <!-- Focus Area 2: Natural Resource Management & Climate Change -->
+                <div class="bg-gray-50 rounded-xl shadow-lg p-8 card-hover border-t-4 border-emerald-600">
+                    <i class="fas fa-mountain-sun text-4xl text-emerald-600 mb-4"></i>
+                    <h3 class="text-2xl font-bold text-amrutha-green mb-3">Resource & Environment</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>**Biodiversity:** Protection and regeneration of native plant species and mixed cropping.</li>
+                        <li>**Nursery-Based Regeneration:** Community nurseries for fruit, timber, fodder, and medicinal plants.</li>
+                        <li>**Climate Adaptation:** Promoting agroforestry systems to restore soil health and sequester carbon.</li>
+                        <li>**Water Solutions:** Facilitating gravity-based water structures for drinking and irrigation.</li>
+                    </ul>
+                </div>
+
+                <!-- Focus Area 3: Health, Institution, and Skill Development -->
+                <div class="bg-gray-50 rounded-xl shadow-lg p-8 card-hover border-t-4 border-yellow-600">
+                    <i class="fas fa-handshake-angle text-4xl text-yellow-600 mb-4"></i>
+                    <h3 class="text-2xl font-bold text-amrutha-green mb-3">Community Empowerment</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>**Health & Hygiene:** Conducting general, dental, and eye camps; Poshan camps; and waste management systems.</li>
+                        <li>**Traditional Healing:** Maintaining a **Tribal Healers Network** to preserve traditional practices.</li>
+                        <li>**FPO Promotion:** Supporting three **Farmer Producer Organizations** (Jodla, Vaishaki Siridhaanyalu, Farm From Forest) for collective action and market power.</li>
+                        <li>**Skill Development:** Providing entrepreneurship and skill training.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact and Goals Section -->
+    <section id="impact" class="py-20 bg-amrutha-green text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-extrabold text-white">Our 2030 Goals & Current Reach</h2>
+                <p class="mt-4 text-xl text-gray-300">Measured progress for self-reliance and transformation.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <!-- Current Reach -->
+                <div class="p-8 bg-white/10 rounded-xl shadow-2xl backdrop-blur-sm">
+                    <h3 class="text-3xl font-bold mb-4 text-green-300 flex items-center"><i class="fas fa-map-location-dot mr-3"></i> Current Footprint (Andhra Pradesh)</h3>
+                    <ul class="space-y-3 text-lg font-light">
+                        <li class="flex items-center"><i class="fas fa-map-pin mr-3 text-green-400"></i> Operating in: **Paderu, G. Madugula, & Hukumpeta mandals**</li>
+                        <li class="flex items-center"><i class="fas fa-house-chimney-user mr-3 text-green-400"></i> Total Villages Reached: **116**</li>
+                        <li class="flex items-center"><i class="fas fa-people-carry-box mr-3 text-green-400"></i> Tribal Families Supported: **Over 3,750**</li>
+                        <li class="flex items-center"><i class="fas fa-building mr-3 text-green-400"></i> Farmer Producer Organizations (FPOs) promoted: **3**</li>
+                    </ul>
+                </div>
+
+                <!-- 2030 Goal -->
+                <div class="p-8 bg-white/10 rounded-xl shadow-2xl backdrop-blur-sm">
+                    <h3 class="text-3xl font-bold mb-4 text-yellow-300 flex items-center"><i class="fas fa-trophy mr-3"></i> Our Goal by 2030</h3>
+                    <ul class="space-y-4 text-xl font-medium">
+                        <li class="border-b border-white/20 pb-2 flex justify-between items-center">
+                            <span class="flex items-center"><i class="fas fa-user-group mr-3"></i> Reach</span>
+                            <span class="text-2xl font-extrabold text-yellow-300">5,000 Families</span>
+                        </li>
+                        <li class="pt-2 flex justify-between items-center">
+                            <span class="flex items-center"><i class="fas fa-sack-dollar mr-3"></i> Income Increase (per family)</span>
+                            <span class="text-2xl font-extrabold text-yellow-300">Rs. 40,000/-</span>
+                        </li>
+                    </ul>
+                    <p class="mt-6 text-gray-300 text-sm">
+                        *This goal focuses on increasing the annual income of tribal families through sustainable livelihood and market development initiatives.*
+                    </p>
+                </div>
+            </div>
+
+            <!-- Donors & Projects -->
+            <div class="mt-16 text-center">
+                <h3 class="text-3xl font-bold mb-8 text-white">Our Valued Partners & Current Projects</h3>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                    <div class="bg-white p-6 rounded-xl text-amrutha-green shadow-lg transition transform hover:scale-105">
+                        <p class="font-bold text-lg mb-1">Dignity Asbl, Luxembourg</p>
+                        <p class="text-sm italic text-gray-600">Agroforestry for climate change in Paderu.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl text-amrutha-green shadow-lg transition transform hover:scale-105">
+                        <p class="font-bold text-lg mb-1">Azim Premji Foundation</p>
+                        <p class="text-sm italic text-gray-600">Promotion of Natural Farming with tribal farmers.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl text-amrutha-green shadow-lg transition transform hover:scale-105">
+                        <p class="font-bold text-lg mb-1">Action World Solidarity</p>
+                        <p class="text-sm italic text-gray-600">Climate-Smart Agriculture Practices Empowerment.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-xl text-amrutha-green shadow-lg transition transform hover:scale-105">
+                        <p class="font-bold text-lg mb-1">NMPB-RCFC (SR)</p>
+                        <p class="text-sm italic text-gray-600">Nursery - Quality Planting Materials project.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Team Section (Board Members & Key Staff) -->
+    <section id="team" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-extrabold text-amrutha-green">Our Dedicated Team</h2>
+                <p class="mt-4 text-xl text-gray-600">Grassroots women professionals leading the way since 2004. Over 90% of our staff are recruited from the target communities.</p>
+            </div>
+
+            <!-- Governing Board -->
+            <h3 class="text-3xl font-bold text-amrutha-green mb-6 text-center">Governing Board Members</h3>
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 mb-16">
+                
+                <div class="text-center p-4 bg-white rounded-lg shadow-md hover:shadow-xl transition card-hover">
+                    <div class="text-amrutha-green font-bold text-lg">S. Venkata Lakshmi</div>
+                    <div class="text-sm text-gray-500">President</div>
+                </div>
+                <div class="text-center p-4 bg-white rounded-lg shadow-md hover:shadow-xl transition card-hover">
+                    <div class="text-amrutha-green font-bold text-lg">V. Padma</div>
+                    <div class="text-sm text-gray-500">Vice-President</div>
+                </div>
+                <div class="text-center p-4 bg-white rounded-lg shadow-md hover:shadow-xl transition card-hover">
+                    <div class="text-amrutha-green font-bold text-lg">V. Santhosh Govardhini</div>
+                    <div class="text-sm text-gray-500">Secretary</div>
+                </div>
+                <div class="text-center p-4 bg-white rounded-lg shadow-md hover:shadow-xl transition card-hover">
+                    <div class="text-amrutha-green font-bold text-lg">T. Annapurna</div>
+                    <div class="text-sm text-gray-500">Treasurer</div>
+                </div>
+                <div class="text-center p-4 bg-white rounded-lg shadow-md hover:shadow-xl transition card-hover">
+                    <div class="text-amrutha-green font-bold text-lg">V. Chandra Shanthi Kumari</div>
+                    <div class="text-sm text-gray-500">Member</div>
+                </div>
+                <!-- Additional members can be added here -->
+            </div>
+
+            <!-- Key Staff -->
+            <h3 class="text-3xl font-bold text-amrutha-green mb-6 text-center">Key Management & Staff</h3>
+            <div class="overflow-x-auto bg-white rounded-xl shadow-xl">
+                <table class="min-w-full divide-y divide-gray-200">
+                    <thead class="bg-gray-100">
+                        <tr>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Name</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Designation</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Qualification</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Experience</th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-white divide-y divide-gray-200">
+                        <!-- Key Staff Entry 1 -->
+                        <tr class="hover:bg-green-50">
+                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-amrutha-green">V. Murali</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700">Project Director</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">MHRM, B.L.</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">24 Years</td>
+                        </tr>
+                        <!-- Key Staff Entry 2 -->
+                        <tr class="hover:bg-green-50">
+                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-amrutha-green">M. Ravi Kumar</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700">Prog. Coordinator – Livelihoods</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">MBA, MA, M.Com. B.Ed.</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">24 Years</td>
+                        </tr>
+                        <!-- Key Staff Entry 3 -->
+                        <tr class="hover:bg-green-50">
+                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-amrutha-green">DRT Patnaik</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700">Prog. Coordinator – Knowledge Mgt</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">M.A. M.P.Ed.</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">24 Years</td>
+                        </tr>
+                        <!-- Key Staff Entry 4 -->
+                        <tr class="hover:bg-green-50">
+                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-amrutha-green">Rosemary</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700">Project Coordinator – Sustainable Agriculture</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">B. Sc. (Agrl.)</td>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">5 Years</td>
+                        </tr>
+                        <!-- Additional staff can be added here. Showing a snippet for brevity. -->
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Donation/Call to Action Section -->
+    <section id="donate" class="py-20 bg-amrutha-green/95">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
+            <h2 class="text-4xl font-extrabold mb-4">Join Us in the Transformation</h2>
+            <p class="text-xl font-light mb-8 max-w-2xl mx-auto text-gray-200">
+                Your support is vital to help us meet our 2030 goals and continue promoting climate-resilient practices and self-reliance in the Eastern Ghats.
+            </p>
+            
+            <div class="bg-white p-8 rounded-xl shadow-2xl text-amrutha-green">
+                <h3 class="text-2xl font-bold mb-6 flex items-center justify-center"><i class="fas fa-hand-holding-heart mr-3 text-green-600"></i> Sustain Our Initiatives</h3>
+                <div class="flex flex-col sm:flex-row justify-center gap-4 mb-6">
+                    <button class="bg-green-100 hover:bg-green-200 text-amrutha-green font-bold py-3 px-6 rounded-lg text-lg transition">₹500</button>
+                    <button class="bg-green-100 hover:bg-green-200 text-amrutha-green font-bold py-3 px-6 rounded-lg text-lg transition">₹1,000</button>
+                    <button class="bg-green-100 hover:bg-green-200 text-amrutha-green font-bold py-3 px-6 rounded-lg text-lg transition">₹5,000</button>
+                </div>
+                <input type="number" placeholder="Enter custom amount (INR)" class="w-full p-3 border border-gray-300 rounded-lg mb-6 focus:ring-green-500 focus:border-green-500">
+                <button class="w-full btn-primary text-white py-4 rounded-lg font-bold text-xl shadow-lg">
+                    Donate Now and Make an Impact
+                </button>
+            </div>
+
+            <p class="mt-8 text-sm text-gray-400">
+                AMRUTHA Welfare Society operates under India's constitutional framework to uplift target groups through holistic, community-led initiatives.
+            </p>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- NGO Info -->
+                <div>
+                    <h4 class="text-xl font-bold mb-4 text-green-400">AMRUTHA Welfare Society</h4>
+                    <p class="text-gray-400 text-sm">Working towards a just, inclusive, and sustainable tribal society in the Eastern Ghats since 2004.</p>
+                </div>
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-xl font-bold mb-4 text-white">Quick Links</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#about" class="text-gray-400 hover:text-green-400 transition">Our History</a></li>
+                        <li><a href="#projects" class="text-gray-400 hover:text-green-400 transition">Current Initiatives</a></li>
+                        <li><a href="#impact" class="text-gray-400 hover:text-green-400 transition">2030 Goals</a></li>
+                        <li><a href="#team" class="text-gray-400 hover:text-green-400 transition">Governing Board</a></li>
+                    </ul>
+                </div>
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="text-xl font-bold mb-4 text-white">Contact Us</h4>
+                    <p class="text-gray-400 text-sm">
+                        <i class="fas fa-envelope mr-2 text-green-400"></i> info@amrutha.org (Placeholder)<br>
+                        <i class="fas fa-phone mr-2 text-green-400"></i> +91 98765 43210 (Placeholder)<br>
+                        <i class="fas fa-location-dot mr-2 text-green-400"></i> Visakhapatnam, Andhra Pradesh, India
+                    </p>
+                </div>
+                <!-- Newsletter -->
+                <div>
+                    <h4 class="text-xl font-bold mb-4 text-white">Stay Connected</h4>
+                    <form>
+                        <input type="email" placeholder="Your Email" class="w-full p-3 rounded-lg border-none bg-gray-800 text-white mb-3 focus:ring-green-500">
+                        <button type="submit" class="w-full btn-primary text-white py-3 rounded-lg font-bold">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="mt-10 pt-8 border-t border-gray-700 text-center text-sm text-gray-500">
+                &copy; 2024 AMRUTHA Welfare Society. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+
+            // Mobile Menu Toggle
+            mobileMenuBtn.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+
+            // Smooth scrolling for internal links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                    // Close mobile menu after click
+                    if (!mobileMenu.classList.contains('hidden')) {
+                         mobileMenu.classList.add('hidden');
+                    }
+                });
+            });
+
+        });
+    </script>
+</body>
+</html>
